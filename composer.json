@@ -1,0 +1,25 @@
+{
+    "name": "uga/php4mailer-bundle",
+    "type": "symfony-bundle",
+    "description": "php mailer for symfony > 2.8",
+    "keywords": ["logger"],
+    "homepage": "https://github.com/nfouka",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nadir Fouka",
+            "email": "nadir.fouka@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4", 
+        "phpmailer/phpmailer": "~5.2"
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-0": { "PhpMailer\\SendMailerBundle": "" }
+    },
+    "target-dir": "PhpMailer/SendMailerBundle"
+}
